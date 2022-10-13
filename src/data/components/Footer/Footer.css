@@ -1,0 +1,67 @@
+.Footer-container{
+    position: relative;
+}
+.Footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.footer-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 4rem;
+    right: 10rem;
+    filter: blur(250px);
+    background: red;
+}
+.footer-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 4rem;
+    left: 10rem;
+    filter: blur(200px);
+
+}
+
+.social-links{
+    display: flex;
+    gap: 4rem;
+    
+}
+.social-links >img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    
+}
+.logo-f>img{
+width: 10rem;
+
+}
+.heart{
+    fill: red;
+    color: red;
+    height: 5rem;
+
+}
+.host{
+    padding: 2rem;
+    position: absolute;
+    right: 42rem;
+    bottom: 1rem;
+}
+@media screen and (max-width:786px){
+    .host{
+        position: absolute;
+        bottom: 1rem;
+        right: 45%;
+
+    }
+}
